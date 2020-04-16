@@ -1,9 +1,14 @@
 /* font-family: 'Lato', sans-serif; */
 /* Navbar */
 
-body{
+html,body{
   width: 100% !important;
   overflow-x: hidden !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+   background-color: #ffffff;
+  
 }
 .navbar{
   z-index: 10;
@@ -425,6 +430,10 @@ text-transform: uppercase;
 
 /* Dekstop */
 @media (min-width: 992px){
+  body{
+  width: 100% !important;
+  overflow-x: hidden !important;
+  }
   .navbar{
     z-index: 10;
     background-color: rgba(7,7,7,0.4) !important;
