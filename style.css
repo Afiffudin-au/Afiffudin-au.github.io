@@ -1,6 +1,9 @@
 /* font-family: 'Lato', sans-serif; */
 /* Navbar */
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8251dff0b5212a21e5ae24fc483146f2b772e360
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -24,9 +27,6 @@ img {
 .navbar-toggler{
   color: white !important;
   background-color: white !important;
-}
-.navbar .home{
-  border-top:none;
 }
 /* .navbar::after{
   display: block;
@@ -471,7 +471,11 @@ text-transform: uppercase;
   color: #72B3CC;
   font-weight: 500;
 }
-
+.hightLight{
+  border-top : 3px solid greenyellow;
+  transition: all 0.2s ease;
+  display: block;
+}
 
 
 
@@ -485,9 +489,6 @@ text-transform: uppercase;
   .navbar{
     z-index: 10;
     background-color: rgba(7,7,7,0.4) !important;
-  }
-  .navbar .home{
-  border-top: 3px solid greenyellow;
   }
   .jumbotron{
     height: 800px;
