@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+$(document).ready(function () {
+=======
 $(document).ready(function () {
 
   $('.home-click').click(function () {
@@ -64,6 +68,7 @@ $(document).ready(function () {
     $('.contact-click').css('border-top','3px solid greenyellow');
   });
 
+>>>>>>> 8251dff0b5212a21e5ae24fc483146f2b772e360
   $('.page-scroll').on('click',function(){
     const tujuan = $(this).attr('href');
     $('html,body').animate({
